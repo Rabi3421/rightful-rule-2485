@@ -1,0 +1,11 @@
+.shopbycategory{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 40px;
+}
+.shopbycategory>img{
+    height: 200px;
+    width: 200px;
+}

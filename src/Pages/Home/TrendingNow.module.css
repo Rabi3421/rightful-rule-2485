@@ -1,0 +1,17 @@
+.image{
+    display:flex;
+    width: 87%;
+    margin: auto;
+    justify-content: space-between;
+}
+.image>div{
+    width: 48%;
+}
+.img{
+    height: 200px;
+    width: 100%;
+}
+.carousel{
+    height : 500px;
+    width : 60%,;
+}

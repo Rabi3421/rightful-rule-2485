@@ -14,23 +14,26 @@ const Navbar = () => {
           </Link>
         </div>
         <input className={NavStyle.search} type ="text" placeholder="Search for a product or brand"></input>
-        <div className={NavStyle.account}>Account</div>
-        <Link className={NavStyle.cart} to="/cart">Cart</Link>
+        <div className={NavStyle.profile}>
+          <div className={NavStyle.account}>Account</div>
+          <Link className={NavStyle.cart} to="/cart">Cart</Link>
+        </div>
+        
       </div>
       <div className={NavStyle.menubar}>
-        <p>Brands</p>
-        <p>Summer Shop</p>
-        <p>Sale</p>
-        <p>Build a Routine</p>
-        <p>Skin Care</p>
-        <p>Hair</p>
-        <p>Makeup</p>
-        <p>Tools</p>
-        <p>Bath & Body</p>
-        <p>Self-Care</p>
-        <p>Fragrance</p>
-        <p>News & Trending</p>
-        <p>Advice</p>
+        <div><p>Brands</p></div>
+        <div><p>Summer Shop</p></div>
+        <div><p>Sale</p></div>
+        <div><p>Build a Routine</p></div>
+        <div><p>Skin Care</p></div>
+        <div><p>Hair</p></div>
+        <div><p>Makeup</p></div>
+        <div><p>Tools</p></div>
+        <div><p>Bath & Body</p></div>
+        <div><p>Self-Care</p></div>
+        <div><p>Fragrance</p></div>
+        <div><p>News & Trending</p></div>
+        <div><p>Advice</p></div>
       </div>
     </>
   )

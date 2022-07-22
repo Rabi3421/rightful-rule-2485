@@ -20,8 +20,13 @@
 }
 .search{
     width: 30%;
-    height: 40px;
+    height: 35px;
     margin-top: 20px;
+}
+.profile{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
 }
 .account{
     margin-top: 20px;
@@ -31,11 +36,21 @@
     text-decoration: none;
 }
 .menubar{
+    height: 30px;
     display: flex;
     margin-left: 6%;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 75%;
 }
-.menubar>p{
+
+.menubar>div>p{
+    /* width: 120%; */
+    margin-top: 5px;
     font-size: 15px;
+    height: 100%;
+    text-align: center;
+}
+.menubar>div:hover{
+    background-color: black;
+    color: white;
 }
