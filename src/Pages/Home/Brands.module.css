@@ -1,0 +1,9 @@
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin: auto;
+}
+.logo>img{
+    width: 180px;
+}
