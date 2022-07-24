@@ -6,7 +6,10 @@ import AllRoutes from './Pages/AllRoutes';
 function App() {
   return (
     <>
-    <Navbar />
+    <div style={{position : "sticky", top:"0", backgroundColor:"white"}}>
+      <Navbar />
+    </div>
+    
     <AllRoutes />
     </>
   );

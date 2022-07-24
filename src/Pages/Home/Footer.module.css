@@ -1,0 +1,35 @@
+.container{
+    margin-top: 1080px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 87%;
+    margin: auto;
+}
+.right>img{
+    height: 40px;
+    width: 40px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}.bottom>div:nth-child(1){
+    width: 50%;
+}
+h6{
+    font-size: 15px;
+}
+.bottom>div{
+    border: 1px solid red;
+}

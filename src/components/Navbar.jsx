@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
         <input className={NavStyle.search} type ="text" placeholder="Search for a product or brand"></input>
         <div className={NavStyle.profile}>
-          <div className={NavStyle.account}>Account</div>
+          <div className={NavStyle.account}><Link to="/Login">Account</Link></div>
           <Link className={NavStyle.cart} to="/cart">Cart</Link>
         </div>
         

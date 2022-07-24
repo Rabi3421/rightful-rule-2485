@@ -1,0 +1,49 @@
+.container{
+    background-color: #f2f2f2;
+}
+.logo{
+    text-decoration: none;
+    background-color: white;
+}
+.logo>div:nth-child(1){
+    color:black;
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+}
+.logo>div:nth-child(2){
+    color:black;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+.credentials{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: auto;
+}
+.left{
+    height: 500px;
+    width: 48%;
+    background-color: white;
+}
+.left>h3{
+    font-size: 30px;
+}
+.left>h2{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.right{
+    height: 100px;
+    width: 48%;
+    background-color: white;
+}
+.right>h3{
+    font-size: 30px;
+}
+.anchor{
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
