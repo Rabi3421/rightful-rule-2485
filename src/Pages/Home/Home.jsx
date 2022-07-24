@@ -1,7 +1,9 @@
 import React from 'react';
 import Brands from './Brands';
 import BuyingRightNow from './BuyingRightNow';
+import Footer from './Footer';
 import HomeCurousel from "./HomeCurousel";
+import OverOnTheBlog from './OverOnTheBlog';
 import ShopByCategory from './ShopByCategory';
 import TrendingNow from './TrendingNow';
 import TrendingOffers from './TrendingOffers';
@@ -19,6 +21,9 @@ const Home = () => {
       <BuyingRightNow />
       <Brands />
       <TrendingNow />
+      <h2 style={{textAlign: 'center', marginTop: '40px'}}>Over On The Blog...</h2>
+      <OverOnTheBlog />
+      <Footer />
     </>
     
   )

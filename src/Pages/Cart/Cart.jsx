@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Footer from "../Home/Footer.jsx"
 
 const Cart = () => {
   return (
-    <div>Cart</div>
+    <div>
+      <Footer />
+    </div>
+
   )
 }
 
